@@ -8,8 +8,12 @@ class TrekrSearch extends StatelessWidget {
     return Scaffold(
         body: SafeArea(
       child: Padding(
-        padding: const EdgeInsets.symmetric(vertical: 20.0),
+        padding: const EdgeInsets.symmetric(
+          vertical: 20.0,
+          horizontal: 40.0,
+        ),
         child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             //logo text
             Center(
