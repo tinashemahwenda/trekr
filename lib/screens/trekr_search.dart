@@ -10,11 +10,13 @@ class TrekrSearch extends StatelessWidget {
       child: Column(
         children: [
           //logo text
-          Text(
-            'trekr.',
-            style: TextStyle(
-              fontWeight: FontWeight.bold,
-              fontSize: 40,
+          Center(
+            child: Text(
+              'trekr.',
+              style: TextStyle(
+                fontWeight: FontWeight.bold,
+                fontSize: 40,
+              ),
             ),
           )
           //main text
