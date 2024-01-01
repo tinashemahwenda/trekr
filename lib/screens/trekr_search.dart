@@ -42,7 +42,14 @@ class TrekrSearch extends StatelessWidget {
               height: 140,
             ),
             //search
-            TextField()
+            TextField(
+              decoration: InputDecoration(
+                  hintText: 'Enter the tracking number',
+                  hintStyle: TextStyle(
+                    color: Colors.grey,
+                    fontWeight: FontWeight.w300,
+                  )),
+            )
             //track button
           ],
         ),
