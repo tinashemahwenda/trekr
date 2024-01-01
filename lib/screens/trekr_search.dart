@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'trekr_product.dart';
+
 class TrekrSearch extends StatelessWidget {
   const TrekrSearch({super.key});
 
@@ -54,20 +56,29 @@ class TrekrSearch extends StatelessWidget {
               height: 20,
             ),
             //track button
-            Container(
-              width: width,
-              height: height / 12,
-              child: Center(
-                child: Text(
-                  'TRACK NOW',
-                  style: TextStyle(
-                    color: Colors.white,
-                    fontWeight: FontWeight.bold,
+            GestureDetector(
+              onTap: () {
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (context) => const TrekrProduct()));
+              },
+              child: Container(
+                width: width,
+                height: height / 12,
+                child: Center(
+                  child: Text(
+                    'TRACK NOW',
+                    style: TextStyle(
+                      color: Colors.white,
+                      fontWeight: FontWeight.bold,
+                    ),
                   ),
                 ),
+                decoration: BoxDecoration(
+                    color: Colors.blue,
+                    borderRadius: BorderRadius.circular(40)),
               ),
-              decoration: BoxDecoration(
-                  color: Colors.blue, borderRadius: BorderRadius.circular(40)),
             )
           ],
         ),
