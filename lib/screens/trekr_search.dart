@@ -38,8 +38,11 @@ class TrekrSearch extends StatelessWidget {
                 fontWeight: FontWeight.w300,
               ),
             ),
+            SizedBox(
+              height: 140,
+            ),
             //search
-
+            TextField()
             //track button
           ],
         ),
