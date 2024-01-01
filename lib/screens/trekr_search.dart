@@ -9,7 +9,7 @@ class TrekrSearch extends StatelessWidget {
         body: Column(
       children: [
         //logo text
-
+        Text('trekr.')
         //main text
 
         //search
