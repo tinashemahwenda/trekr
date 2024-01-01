@@ -6,9 +6,16 @@ class TrekrSearch extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Center(
-        child: Text('Trekr Search'),
-      ),
-    );
+        body: Column(
+      children: [
+        //logo text
+
+        //main text
+
+        //search
+
+        //track button
+      ],
+    ));
   }
 }
