@@ -20,9 +20,12 @@ class TrekrSearch extends StatelessWidget {
                   fontSize: 44,
                 ),
               ),
-            )
+            ),
+            SizedBox(
+              height: 250,
+            ),
             //main text
-
+            Text('Track your \nparcels & goods \nin real time'),
             //search
 
             //track button
