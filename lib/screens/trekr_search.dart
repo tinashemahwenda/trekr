@@ -11,7 +11,7 @@ class TrekrSearch extends StatelessWidget {
         body: SafeArea(
       child: Padding(
         padding: const EdgeInsets.symmetric(
-          vertical: 20.0,
+          vertical: 30.0,
           horizontal: 40.0,
         ),
         child: Column(
@@ -28,7 +28,7 @@ class TrekrSearch extends StatelessWidget {
               ),
             ),
             SizedBox(
-              height: 200,
+              height: 240,
             ),
             //main text
             Text(
@@ -49,8 +49,26 @@ class TrekrSearch extends StatelessWidget {
                     color: Colors.grey,
                     fontWeight: FontWeight.w300,
                   )),
-            )
+            ),
+            SizedBox(
+              height: 20,
+            ),
             //track button
+            Container(
+              width: width,
+              height: height / 12,
+              child: Center(
+                child: Text(
+                  'TRACK NOW',
+                  style: TextStyle(
+                    color: Colors.white,
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
+              ),
+              decoration: BoxDecoration(
+                  color: Colors.blue, borderRadius: BorderRadius.circular(40)),
+            )
           ],
         ),
       ),
