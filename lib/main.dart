@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'screens/trekr_search.dart';
+
 void main() {
   runApp(TrekrApp());
 }
@@ -10,7 +12,7 @@ class TrekrApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: TrekrHome(),
+      home: TrekrSearch(),
     );
   }
 }
