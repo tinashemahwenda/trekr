@@ -24,7 +24,12 @@ class TrekrProduct extends StatelessWidget {
                     fontSize: 18,
                   ),
                 ),
-                Icon(Icons.search),
+                GestureDetector(
+                  onTap: () {
+                    Navigator.pop(context);
+                  },
+                  child: Icon(Icons.search),
+                ),
               ],
             )
           ],
