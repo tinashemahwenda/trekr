@@ -6,9 +6,12 @@ class TrekrProduct extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Center(
-        child: Text('Your Product'),
-      ),
-    );
+        body: Column(
+      children: [
+        Row(
+          children: [Text('Track your parcel \nwith Trekr')],
+        )
+      ],
+    ));
   }
 }
