@@ -11,7 +11,7 @@ class TrekrProduct extends StatelessWidget {
         body: SafeArea(
       child: Padding(
         padding: const EdgeInsets.symmetric(
-          vertical: 50.0,
+          vertical: 80.0,
           horizontal: 30.0,
         ),
         child: Column(
@@ -39,7 +39,7 @@ class TrekrProduct extends StatelessWidget {
             ),
             Container(
               width: width,
-              height: height / 2,
+              height: height / 2.2,
               decoration: BoxDecoration(
                 color: Colors.blue,
                 borderRadius: BorderRadius.circular(20),
@@ -114,6 +114,25 @@ class TrekrProduct extends StatelessWidget {
                     ),
                   ],
                 ),
+              ),
+            ),
+            SizedBox(
+              height: 20,
+            ),
+            GestureDetector(
+              onTap: () {
+                Navigator.pop(context);
+              },
+              child: Container(
+                padding: EdgeInsets.all(20),
+                decoration: BoxDecoration(
+                    color: Colors.white,
+                    borderRadius: BorderRadius.circular(30),
+                    border: Border.all(
+                      width: 1,
+                      color: Colors.blue,
+                    )),
+                child: Center(child: Text('TRACK NOW')),
               ),
             )
           ],
