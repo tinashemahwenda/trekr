@@ -5,6 +5,8 @@ class TrekrProduct extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    double width = MediaQuery.of(context).size.width;
+    double height = MediaQuery.of(context).size.height;
     return Scaffold(
         body: SafeArea(
       child: Padding(
@@ -31,6 +33,17 @@ class TrekrProduct extends StatelessWidget {
                   child: Icon(Icons.search),
                 ),
               ],
+            ),
+            SizedBox(
+              height: 60,
+            ),
+            Container(
+              width: width,
+              height: height / 2,
+              decoration: BoxDecoration(
+                color: Colors.blue,
+                borderRadius: BorderRadius.circular(30),
+              ),
             )
           ],
         ),
