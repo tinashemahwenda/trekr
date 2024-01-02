@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "18817387185",
+    "project_id": "trekr-products",
+    "storage_bucket": "trekr-products.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:18817387185:android:55900e7e100f609e857090",
+        "android_client_info": {
+          "package_name": "com.example.trekr"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMsLci3qPNPVf-4GATJnlbPPt3lbpxPek"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
