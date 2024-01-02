@@ -85,6 +85,33 @@ class TrekrProduct extends StatelessWidget {
                       height: 20,
                     ),
                     Divider(),
+                    SizedBox(
+                      height: 20,
+                    ),
+                    Text(
+                      'Progress: 85%',
+                      style: TextStyle(
+                        color: Colors.white,
+                      ),
+                    ),
+                    Text(
+                      'Location: Left China',
+                      style: TextStyle(
+                        color: Colors.white,
+                      ),
+                    ),
+                    Text(
+                      'ETA: 24 January 2024',
+                      style: TextStyle(
+                        color: Colors.white,
+                      ),
+                    ),
+                    Text(
+                      'Notes: Might be delayed by custom duty clearance for 10 days',
+                      style: TextStyle(
+                        color: Colors.white,
+                      ),
+                    ),
                   ],
                 ),
               ),
