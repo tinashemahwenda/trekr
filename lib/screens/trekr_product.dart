@@ -132,7 +132,14 @@ class TrekrProduct extends StatelessWidget {
                       width: 1,
                       color: Colors.blue,
                     )),
-                child: Center(child: Text('TRACK NOW')),
+                child: Center(
+                    child: Text(
+                  'TRACK MORE PRODUCTS',
+                  style: TextStyle(
+                    fontWeight: FontWeight.w600,
+                    color: Colors.grey,
+                  ),
+                )),
               ),
             )
           ],
