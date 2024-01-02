@@ -21,7 +21,7 @@ class TrekrProduct extends StatelessWidget {
                   'Track your parcel \nwith Trekr',
                   style: TextStyle(
                     fontWeight: FontWeight.bold,
-                    fontSize: 18,
+                    fontSize: 20,
                   ),
                 ),
                 GestureDetector(
