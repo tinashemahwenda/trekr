@@ -11,7 +11,7 @@ class TrekrProduct extends StatelessWidget {
         body: SafeArea(
       child: Padding(
         padding: const EdgeInsets.symmetric(
-          vertical: 40.0,
+          vertical: 50.0,
           horizontal: 30.0,
         ),
         child: Column(
@@ -19,7 +19,7 @@ class TrekrProduct extends StatelessWidget {
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
-                Text(
+                const Text(
                   'Track your parcel \nwith Trekr',
                   style: TextStyle(
                     fontWeight: FontWeight.bold,
@@ -30,11 +30,11 @@ class TrekrProduct extends StatelessWidget {
                   onTap: () {
                     Navigator.pop(context);
                   },
-                  child: Icon(Icons.search),
+                  child: const Icon(Icons.search),
                 ),
               ],
             ),
-            SizedBox(
+            const SizedBox(
               height: 60,
             ),
             Container(
@@ -42,7 +42,7 @@ class TrekrProduct extends StatelessWidget {
               height: height / 2,
               decoration: BoxDecoration(
                 color: Colors.blue,
-                borderRadius: BorderRadius.circular(30),
+                borderRadius: BorderRadius.circular(40),
               ),
             )
           ],
