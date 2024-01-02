@@ -42,7 +42,30 @@ class TrekrProduct extends StatelessWidget {
               height: height / 2,
               decoration: BoxDecoration(
                 color: Colors.blue,
-                borderRadius: BorderRadius.circular(40),
+                borderRadius: BorderRadius.circular(20),
+              ),
+              child: Padding(
+                padding: const EdgeInsets.symmetric(
+                  vertical: 40.0,
+                  horizontal: 20.0,
+                ),
+                child: Row(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    Text(
+                      'Parcel Details',
+                      style: TextStyle(
+                        fontWeight: FontWeight.bold,
+                        color: Colors.white,
+                      ),
+                    ),
+                    Icon(
+                      Icons.push_pin_sharp,
+                      color: Colors.white,
+                    ),
+                  ],
+                ),
               ),
             )
           ],
