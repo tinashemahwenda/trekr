@@ -49,21 +49,42 @@ class TrekrProduct extends StatelessWidget {
                   vertical: 40.0,
                   horizontal: 20.0,
                 ),
-                child: Row(
+                child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
+                    Row(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        Text(
+                          'Parcel Details',
+                          style: TextStyle(
+                            fontWeight: FontWeight.bold,
+                            color: Colors.white,
+                          ),
+                        ),
+                        Icon(
+                          Icons.push_pin_sharp,
+                          color: Colors.white,
+                        ),
+                      ],
+                    ),
+                    SizedBox(
+                      height: 10,
+                    ),
                     Text(
-                      'Parcel Details',
+                      'Nano Coating Machine',
                       style: TextStyle(
                         fontWeight: FontWeight.bold,
+                        fontSize: 36.0,
                         color: Colors.white,
+                        height: 1,
                       ),
                     ),
-                    Icon(
-                      Icons.push_pin_sharp,
-                      color: Colors.white,
+                    SizedBox(
+                      height: 20,
                     ),
+                    Divider(),
                   ],
                 ),
               ),
